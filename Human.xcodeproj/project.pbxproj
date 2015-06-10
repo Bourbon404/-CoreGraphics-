@@ -15,6 +15,7 @@
 		9F3DFF5D1B28048B00BFDB88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3DFF5B1B28048B00BFDB88 /* LaunchScreen.xib */; };
 		9F3DFF691B28048B00BFDB88 /* HumanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3DFF681B28048B00BFDB88 /* HumanTests.m */; };
 		9F3DFF741B2804A400BFDB88 /* HumanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3DFF731B2804A400BFDB88 /* HumanView.m */; };
+		9F95860E1B2843D200BD4301 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F95860D1B2843D200BD4301 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		9F3DFF681B28048B00BFDB88 /* HumanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumanTests.m; sourceTree = "<group>"; };
 		9F3DFF721B2804A400BFDB88 /* HumanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanView.h; sourceTree = "<group>"; };
 		9F3DFF731B2804A400BFDB88 /* HumanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanView.m; sourceTree = "<group>"; };
+		9F95860C1B2843D200BD4301 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		9F95860D1B2843D200BD4301 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				9F3DFF541B28048B00BFDB88 /* ViewController.m */,
 				9F3DFF721B2804A400BFDB88 /* HumanView.h */,
 				9F3DFF731B2804A400BFDB88 /* HumanView.m */,
+				9F95860C1B2843D200BD4301 /* Circle.h */,
+				9F95860D1B2843D200BD4301 /* Circle.m */,
 				9F3DFF561B28048B00BFDB88 /* Main.storyboard */,
 				9F3DFF591B28048B00BFDB88 /* Images.xcassets */,
 				9F3DFF5B1B28048B00BFDB88 /* LaunchScreen.xib */,
@@ -226,6 +231,7 @@
 			files = (
 				9F3DFF551B28048B00BFDB88 /* ViewController.m in Sources */,
 				9F3DFF521B28048B00BFDB88 /* AppDelegate.m in Sources */,
+				9F95860E1B2843D200BD4301 /* Circle.m in Sources */,
 				9F3DFF741B2804A400BFDB88 /* HumanView.m in Sources */,
 				9F3DFF4F1B28048B00BFDB88 /* main.m in Sources */,
 			);
@@ -422,6 +428,7 @@
 				9F3DFF6E1B28048B00BFDB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F3DFF6F1B28048B00BFDB88 /* Build configuration list for PBXNativeTarget "HumanTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				9F3DFF711B28048B00BFDB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
